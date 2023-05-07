@@ -16,6 +16,7 @@ import gameRoute from "./routes/gameRoute";
 //   res.send({ messsage: "NhutMinh IT" });
 // });
 
+//API ROUTER
 app.use("/api/games", gameRoute);
 
 export { app };
